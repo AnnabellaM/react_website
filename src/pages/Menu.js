@@ -5,7 +5,7 @@ import MenuItem from '../components/MenuItem'
 function Menu() {
     return (
         <div className='menu'>
-            <h1 className='menuTitle'>Our Wish List</h1>
+            <h1 className='menuTitle'>Movie List</h1>
             <div className='menuList'>
                 {MenuList.map((item, key) => {
                     return <MenuItem 
